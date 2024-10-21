@@ -1,0 +1,97 @@
+
+  body {
+    background: rgb(0,0,0);
+    background-image: url(images/pokemonCenter.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    /* Apply a gradient background to the body */
+    /* background: radial-gradient(circle, rgb(167, 158, 65) 0%, rgb(214, 163, 24) 100%); */
+    font-family: 'Comic Sans MS', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+  table{
+    margin-left: auto;
+    margin-right: auto;
+    border:1px solid #000;
+    background-color:#eee;
+    width: 750px;
+    text-align: center;
+    text-indent: 3%;
+    
+
+}
+
+    table, th, td {
+        border: 1px solid;
+}
+
+  th {
+    background-color: #04AA6D;
+    color: white;
+   
+    
+    
+}
+  
+  /* Styling for the header */
+  #header {
+    margin: 5px;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 3px white;
+}
+  
+  /* Styling for the H1 header */
+  h1 {
+    margin-bottom: 20px; 
+}
+  
+  /* Styling for the input box */
+  #input-box {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+}
+  
+  /* Styling for the Search button */
+  #input-button {
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: #2e60ea;
+
+}
+
+   /* Styling for Random Button */
+   #rando-button {
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: #2e60ea;
+
+}
+  
+  /* Change the background color of the Search and Random button on hover */
+  #input-button:hover {
+    background-color: #9eb7fd; 
+}
+
+  #rando-button:hover {
+    background-color: #9eb7fd
+}  
+  
+ 
+ 
