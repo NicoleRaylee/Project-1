@@ -1,10 +1,13 @@
 
+  
   body {
-    background: rgb(0,0,0);
+    background: rgb(255, 255, 255);
+    /* image saved in images folder */
     background-image: url(images/pokemonCenter.jpeg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
+    /* below comments not being used saving as reminder on gradients  */
     /* Apply a gradient background to the body */
     /* background: radial-gradient(circle, rgb(167, 158, 65) 0%, rgb(214, 163, 24) 100%); */
     font-family: 'Comic Sans MS', sans-serif;
@@ -12,20 +15,20 @@
     margin-top: 50px;
 
 }
-
+/* Styling for Table */
   table{
+    margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
     border:1px solid #000;
     background-color:#eee;
     width: 750px;
     text-align: center;
-    text-indent: 3%;
+    text-indent: 3%;   
     
-
 }
 
-    table, th, td {
+  table, th, td {
         border: 1px solid;
 }
 
@@ -33,8 +36,7 @@
     background-color: #04AA6D;
     color: white;
    
-    
-    
+       
 }
   
   /* Styling for the header */
@@ -44,12 +46,7 @@
     text-align: center;
     text-shadow: 2px 2px 3px white;
 }
-  
-  /* Styling for the H1 header */
-  h1 {
-    margin-bottom: 20px; 
-}
-  
+
   /* Styling for the input box */
   #input-box {
     width: 200px;

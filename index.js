@@ -18,7 +18,7 @@ randomBtn.addEventListener('click', async () => {
         
       
     
-// // Optionally, display it in the DOM
+// DOM Display
     const displayPokemonData = (pokemon) => {
     tableBody.innerHTML = '';
     
@@ -37,6 +37,7 @@ randomBtn.addEventListener('click', async () => {
     };
 });
 
+// Fetch pokemon from PokeAPI
 const getPokemonData = async query => {
     const url = `https://pokeapi.co/api/v2/pokemon/${query}`;
     try{
@@ -54,6 +55,7 @@ const getPokemonData = async query => {
 }
    
 };
+// Organizes the specified fetched data into the table
 
 const displayPokemonData = (pokemon) => {
     tableBody.innerHTML = '';
