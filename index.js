@@ -60,13 +60,14 @@ const displayPokemonData = (pokemon) => {
 
 const name = pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1);
 const imageUrl = pokemon.sprites.front_default;
+const ShinyUrl = pokemon.sprites.front_shiny;
 const description = `This is ${name}, ${name} is ${pokemon.types.map(type => type.type.name).join(', ')} type.`;
 const base_stat = `Base Stats: ${pokemon.stats[0].stat.name} = ${pokemon.stats[0].base_stat},
 ${pokemon.stats[1].stat.name} = ${pokemon.stats[1].base_stat}, ${pokemon.stats[2].stat.name} = ${pokemon.stats[2].base_stat}, ${pokemon.stats[3].stat.name} = ${pokemon.stats[3].base_stat}, ${pokemon.stats[4].stat.name} = ${pokemon.stats[4].base_stat}, ${pokemon.stats[5].stat.name} = ${pokemon.stats[5].base_stat}`;
 const idNumber = `${pokemon.id}`;
 const row = `
 <tr>
-    <td><img src="${imageUrl}" alt="${name}" width="100"></td>
+    <td><img src="${imageUrl}" alt="${name}" width="100"></td><td><img src="${ShinyUrl}" alt="${name}" width="100"></td>
     <td>${description}</td><td>${base_stat}</td><td>${idNumber}</td>
 
 </tr>
