@@ -1,7 +1,5 @@
-# Project-1
 
 # Pokedictionary -Project 1
----
 
 ## Features
 

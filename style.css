@@ -44,7 +44,8 @@
     margin: 5px;
     font-size: 20px;
     text-align: center;
-    text-shadow: 2px 2px 3px white;
+    /* offset-x | offset-y | blur-radius | color */
+    text-shadow: 2px 2px 3px rgb(255, 255, 255);
 }
 
   /* Styling for the input box */
