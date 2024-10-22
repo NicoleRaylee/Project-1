@@ -68,7 +68,7 @@
     padding: 10px;
     border: 1px solid;
     border-radius: 5px;
-    background-color: #2e60ea;
+    background-color: #04AA6D;
 
 }
 
@@ -80,17 +80,17 @@
     padding: 10px;
     border: 1px solid;
     border-radius: 5px;
-    background-color: #2e60ea;
+    background-color: #04AA6D;
 
 }
   
   /* Change the background color of the Search and Random button on hover */
   #input-button:hover {
-    background-color: #9eb7fd; 
+    background-color: #84daba; 
 }
 
   #rando-button:hover {
-    background-color: #9eb7fd
+    background-color: #84daba;
 }  
   
  
